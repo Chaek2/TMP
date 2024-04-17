@@ -36,3 +36,177 @@ C:\Users\Anton\source\repos\Porlam\bin\Debug\Telegram.Bot.xml
 C:\Users\Anton\source\repos\Porlam\obj\Debug\Porlam.csproj.SuggestedBindingRedirects.cache
 C:\Users\Anton\source\repos\Porlam\obj\Debug\Porlam.exe.config
 C:\Users\Anton\source\repos\Porlam\obj\Debug\Porlam.csproj.CopyComplete
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Porlam.exe.config
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Porlam.exe
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Porlam.pdb
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Newtonsoft.Json.dll
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Telegram.Bot.dll
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Newtonsoft.Json.xml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Telegram.Bot.pdb
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\bin\Debug\Telegram.Bot.xml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.csproj.AssemblyReference.cache
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.csproj.SuggestedBindingRedirects.cache
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.exe.config
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\AdminPanel.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Authentication.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\MainWindow.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\ProjectInfo.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Support.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Teams.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\App.g.cs
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam_MarkupCompile.cache
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam_MarkupCompile.lref
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\AdminPanel.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Authentication.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\MainWindow.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\ProjectInfo.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Support.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Teams.baml
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.g.resources
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.Properties.Resources.resources
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.csproj.GenerateResource.cache
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.csproj.CoreCompileInputs.cache
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.csproj.Up2Date
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.exe
+G:\Мой диск\ПП\4 курс 3 с\proga\Porlam\obj\Debug\Porlam.pdb
+E:\2\Porlam\bin\Debug\Porlam.exe.config
+E:\2\Porlam\bin\Debug\Porlam.exe
+E:\2\Porlam\bin\Debug\Porlam.pdb
+E:\2\Porlam\bin\Debug\Newtonsoft.Json.dll
+E:\2\Porlam\bin\Debug\System.ComponentModel.Annotations.dll
+E:\2\Porlam\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\2\Porlam\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\2\Porlam\bin\Debug\Telegram.Bot.dll
+E:\2\Porlam\bin\Debug\Newtonsoft.Json.xml
+E:\2\Porlam\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\2\Porlam\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\2\Porlam\bin\Debug\Telegram.Bot.pdb
+E:\2\Porlam\bin\Debug\Telegram.Bot.xml
+E:\2\Porlam\obj\Debug\Porlam.csproj.AssemblyReference.cache
+E:\2\Porlam\obj\Debug\AdminPanel.g.cs
+E:\2\Porlam\obj\Debug\Authentication.g.cs
+E:\2\Porlam\obj\Debug\MainWindow.g.cs
+E:\2\Porlam\obj\Debug\ProjectInfo.g.cs
+E:\2\Porlam\obj\Debug\Support.g.cs
+E:\2\Porlam\obj\Debug\Teams.g.cs
+E:\2\Porlam\obj\Debug\App.g.cs
+E:\2\Porlam\obj\Debug\Porlam_MarkupCompile.cache
+E:\2\Porlam\obj\Debug\Porlam_MarkupCompile.lref
+E:\2\Porlam\obj\Debug\AdminPanel.baml
+E:\2\Porlam\obj\Debug\Authentication.baml
+E:\2\Porlam\obj\Debug\MainWindow.baml
+E:\2\Porlam\obj\Debug\ProjectInfo.baml
+E:\2\Porlam\obj\Debug\Support.baml
+E:\2\Porlam\obj\Debug\Teams.baml
+E:\2\Porlam\obj\Debug\Porlam.g.resources
+E:\2\Porlam\obj\Debug\Porlam.Properties.Resources.resources
+E:\2\Porlam\obj\Debug\Porlam.csproj.GenerateResource.cache
+E:\2\Porlam\obj\Debug\Porlam.csproj.CoreCompileInputs.cache
+E:\2\Porlam\obj\Debug\Porlam.exe
+E:\2\Porlam\obj\Debug\Porlam.pdb
+E:\2\Porlam\bin\Debug\tmp\sert.doc
+E:\2\Porlam\obj\Debug\Account.g.cs
+E:\2\Porlam\obj\Debug\Account.baml
+E:\2\Porlam\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Options.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\2\Porlam\bin\Debug\System.Buffers.dll
+E:\2\Porlam\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\2\Porlam\bin\Debug\System.Memory.dll
+E:\2\Porlam\bin\Debug\System.Numerics.Vectors.dll
+E:\2\Porlam\bin\Debug\System.Text.Encodings.Web.dll
+E:\2\Porlam\bin\Debug\System.Text.Json.dll
+E:\2\Porlam\bin\Debug\System.ValueTuple.dll
+E:\2\Porlam\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Options.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\2\Porlam\bin\Debug\System.Buffers.xml
+E:\2\Porlam\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\2\Porlam\bin\Debug\System.Memory.xml
+E:\2\Porlam\bin\Debug\System.Numerics.Vectors.xml
+E:\2\Porlam\bin\Debug\System.Text.Encodings.Web.xml
+E:\2\Porlam\bin\Debug\System.Text.Json.xml
+E:\2\Porlam\bin\Debug\System.ValueTuple.xml
+E:\2\Porlam\obj\Debug\Porlam.csproj.SuggestedBindingRedirects.cache
+E:\2\Porlam\obj\Debug\Porlam.exe.config
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Diagnostics.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Hosting.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.EventLog.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.EventSource.dll
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+E:\2\Porlam\bin\Debug\Microsoft.Net.Http.Headers.dll
+E:\2\Porlam\bin\Debug\NLog.dll
+E:\2\Porlam\bin\Debug\NLog.Extensions.Logging.dll
+E:\2\Porlam\bin\Debug\NLog.Web.AspNetCore.dll
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.CommandLine.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Diagnostics.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Hosting.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Configuration.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Console.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.Debug.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.EventLog.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.Logging.EventSource.xml
+E:\2\Porlam\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+E:\2\Porlam\bin\Debug\Microsoft.Net.Http.Headers.xml
+E:\2\Porlam\bin\Debug\NLog.xml
+E:\2\Porlam\bin\Debug\NLog.Extensions.Logging.xml
+E:\2\Porlam\bin\Debug\NLog.Web.AspNetCore.xml
+E:\2\Porlam\bin\Debug\NLog.config
+E:\2\Porlam\obj\Debug\Porlam.csproj.Up2Date

@@ -9,7 +9,7 @@
         Icon="icon.ico"
         WindowStartupLocation="CenterScreen"
         Title="" Height="330" Width="600">
-    <!--330.450-->
+    <!--330.480-->
     <Grid>
         <Grid x:Name="_auth_grid" Grid.Row="0" Grid.Column="0" Visibility="Visible">
             <Label x:Name="_error" Content="Авторизация" HorizontalAlignment="Center" Height="45" FontSize="22"  
@@ -53,9 +53,14 @@
             <TextBox x:Name="_name_reg" HorizontalAlignment="Center" Height="45" FontSize="22"  
                          VerticalAlignment="Top" Margin="150,260,0,0" Width="280"/>
 
-            <Button Content="Назад" HorizontalAlignment="Center" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="0,350,450,0" Width="100" Click="Button_Click_1"/>
-            <Button Content="Авторизация" HorizontalAlignment="Center" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="0,350,130,0" Width="200" Click="Button_Click_2"/>
-            <Button Content="Зарегистрироваться" HorizontalAlignment="Center" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="330,350,0,0" Width="250" Click="Button_Click"/>
+            <Label Content="Телефон:" HorizontalAlignment="Left" Height="45" FontSize="22" 
+                   VerticalAlignment="Top" Margin="124,319,0,0"/>
+            <TextBox x:Name="_ph_reg" MaxLength="11" MinLines="1" HorizontalAlignment="Left" Height="45" FontSize="22"  
+                         VerticalAlignment="Top" Margin="235,319,0,0" Width="280"/>
+
+            <Button Content="Назад" HorizontalAlignment="Left" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="25,409,0,0" Width="100" Click="Button_Click_1"/>
+            <Button Content="Авторизация" HorizontalAlignment="Left" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="135,409,0,0" Width="200" Click="Button_Click_2"/>
+            <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Height="45" FontSize="22"  VerticalAlignment="Top" Margin="340,409,0,0" Width="250" Click="Button_Click"/>
         </Grid>
     </Grid>
 </Window>

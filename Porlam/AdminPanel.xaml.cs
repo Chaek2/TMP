@@ -4,19 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Porlam
 {
@@ -142,13 +132,16 @@ namespace Porlam
                     }
                     break;
                 case "Active":
-                    if (_active_title.Text.Length > 1 && _active_file.Content == "Выбран")
+                    if (_active_title.Text.Length > 1 && _active_file.Content.ToString() == "Выбран"
+                        && DateTime.Now < _active_datebefore.SelectedDate)
                     {
                         array = new ArrayList();
                         array.Add(_active_title.Text);
                         array.Add(_active_img.Text);
                         array.Add(buffer);
                         array.Add(Int32.Parse(_active_num.Text));
+                        array.Add(_active_datebefore.SelectedDate);
+                        array.Add(DateTime.Now);
                         error_tag = Server.Insert("Active", array);
                         if (error_tag)
                         {
@@ -200,15 +193,17 @@ namespace Porlam
                     }
                     break;
                 case "Active":
-                    if (_active_title.Text.Length > 1 && _active_file.Content == "Выбран")
+                    if (_active_title.Text.Length > 1 && _active_file.Content.ToString() == "Выбран")
                     {
                         if (dataRowView != null)
                         {
                             array = new ArrayList();
-                            array.Add(_active_title.Text);
                             array.Add(_active_img.Text);
                             array.Add(buffer);
                             array.Add(Int32.Parse(_active_num.Text));
+                            array.Add(_active_datebefore.SelectedDate);
+                            array.Add(DateTime.Now);
+                            array.Add(_active_title.Text);
                             error_tag = Server.Update("Active", array, dataRowView[0].ToString());
                         }
                     }
@@ -286,6 +281,7 @@ namespace Porlam
                         buffer = (byte[])dataRowView[2];
                         _active_file.Content = "Выбран";
                         _active_num.Text = dataRowView[3].ToString();
+                        _active_datebefore.SelectedDate = (DateTime)dataRowView[4];
                         break;
                     case "Request":
                         _request_id.Text = dataRowView[1].ToString();

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -32,7 +33,8 @@ namespace Porlam
         {
             if (auth_grid)
             {
-                Authing(_login.Text,_pass.Password);
+                string password = Hash256(_pass.Password);
+                Authing(_login.Text, password);
             }
             else
             {
@@ -76,11 +78,11 @@ namespace Porlam
                           select row;
                 if (res.Count() > 0)
                 {
-                    DataRow rowActive = res.First();
-                    Settings.Default.Client_ID = Int32.Parse(rowActive[0].ToString());
+                    DataRow row = res.First();
+                    Settings.Default.Client_ID = Int32.Parse(row["ID_People"].ToString());
                     Settings.Default.Clinet_login = login;
                     Settings.Default.Clinet_password = password;
-                    Settings.Default.Client_post = rowActive[6].ToString();
+                    Settings.Default.Client_post = row["Post_ID"].ToString();
                     Settings.Default.Save();
                     Server.Authing();
                     MainWindow mainWindow = new MainWindow();
@@ -106,9 +108,11 @@ namespace Porlam
 
         private void Register()
         {
-            if (_login_reg.Text.Length > 0 && _pass_reg.Text.Length > 0 
-                && _surname_reg.Text.Length > 0 && _name_reg.Text.Length > 0)
+            if (_login_reg.Text.Length > 5 && _pass_reg.Text.Length > 5 
+                && _surname_reg.Text.Length > 1 && _name_reg.Text.Length > 1
+                && _ph_reg.Text.Length == 11 && int.TryParse(_ph_reg.Text, out int n))
             {
+                string password = Hash256(_pass_reg.Text);
                 Server.Select("People");
                 DataTable active = Server.dataSet.Tables[2];
                 var res = from row in active.AsEnumerable()
@@ -122,12 +126,13 @@ namespace Porlam
                     arrayList.Add(_name_reg.Text);
                     arrayList.Add(0);
                     arrayList.Add(_login_reg.Text);
-                    arrayList.Add(_pass_reg.Text);
+                    arrayList.Add(password);
+                    arrayList.Add(_ph_reg.Text);
                     arrayList.Add("Активист");
                     bool insert = Server.Insert("People", arrayList);
                     if (insert)
                     {
-                        Authing(_login_reg.Text, _pass_reg.Text);
+                        Authing(_login_reg.Text, password);
                     }
                     else
                     {
@@ -154,6 +159,15 @@ namespace Porlam
                 _error_reg.Content = "Все поля должны быть заполнены";
             }
         }
-
+        private string Hash256(string password)
+        {
+            byte[] inputBytes = Encoding.UTF8.GetBytes(password);
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashBytes = sha256.ComputeHash(inputBytes);
+                password = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+            }
+            return password;
+        }
     }
 }

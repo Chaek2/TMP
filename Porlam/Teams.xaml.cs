@@ -1,18 +1,10 @@
 ﻿using Porlam.Properties;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Porlam
 {
@@ -21,6 +13,7 @@ namespace Porlam
     /// </summary>
     public partial class Teams : Window
     {
+        private WordSert words = new WordSert();
         public Teams()
         {
             InitializeComponent();
@@ -28,6 +21,10 @@ namespace Porlam
         }
         private void ResetUI()
         {
+            if (Settings.Default.Client_post == "Председатель")
+            {
+                btn_sert.Visibility = Visibility.Visible;
+            }
             Server.Select("People");
             DataTable data = Server.dataSet.Tables["People"];
             if (data != null)
@@ -36,7 +33,6 @@ namespace Porlam
                        .OrderByDescending(r => r.Field<int>("Activities_Number"))
                        .ThenBy(r => r.Field<string>("Surname"))
                        .CopyToDataTable();
-                ;
                 StackPanel grid = new StackPanel();
                 foreach (DataRow dr in dataTable.Rows)
                 {
@@ -82,6 +78,26 @@ namespace Porlam
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
+        }
+
+        private void btn_sert_Click(object sender, RoutedEventArgs e)
+        {
+
+            Server.Select("People");
+            DataTable data = Server.dataSet.Tables["People"];
+            if (data != null)
+            {
+                DataTable dataTable = data.AsEnumerable()
+                       .OrderByDescending(r => r.Field<int>("Activities_Number"))
+                       .ThenBy(r => r.Field<string>("Surname"))
+                       .CopyToDataTable();
+                TelegramBots.init();
+                foreach (DataRow dr in dataTable.Rows)
+                {
+                    words.Sert(dr);
+                    TelegramBots.SetMessageDocument(@"E:\2\tmp\" + dr["ID_People"].ToString() + ".doc", dr["ID_People"].ToString());
+                }
+            }
         }
     }
 }

@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\2\\Porlam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|e:\\2\\porlam\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\authentication.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:authentication.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\authentication.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:authentication.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\projectinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:projectinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\support.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:support.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\support.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:support.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\teams.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:teams.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\telegrambots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:telegrambots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\wordsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:wordsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|E:\\2\\Porlam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCDC9BCB-6EEE-4172-A673-8F7194CB4D92}|Porlam.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nlog.config",
+              "DocumentMoniker": "E:\\2\\Porlam\\nlog.config",
+              "RelativeDocumentMoniker": "nlog.config",
+              "ToolTip": "E:\\2\\Porlam\\nlog.config",
+              "RelativeToolTip": "nlog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-16T21:43:37.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authentication.xaml",
+              "DocumentMoniker": "E:\\2\\Porlam\\Authentication.xaml",
+              "RelativeDocumentMoniker": "Authentication.xaml",
+              "ToolTip": "E:\\2\\Porlam\\Authentication.xaml",
+              "RelativeToolTip": "Authentication.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T19:22:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminPanel.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\AdminPanel.xaml.cs",
+              "RelativeDocumentMoniker": "AdminPanel.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\AdminPanel.xaml.cs",
+              "RelativeToolTip": "AdminPanel.xaml.cs",
+              "ViewState": "AQIAACEBAAAAAAAAAAAQwCkBAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:21:31.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectInfo.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\ProjectInfo.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectInfo.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\ProjectInfo.xaml.cs",
+              "RelativeToolTip": "ProjectInfo.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:21:21.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAqwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:21:12.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Account.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\Account.xaml.cs",
+              "RelativeDocumentMoniker": "Account.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\Account.xaml.cs",
+              "RelativeToolTip": "Account.xaml.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAgwL8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:21:02.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Support.xaml",
+              "DocumentMoniker": "E:\\2\\Porlam\\Support.xaml",
+              "RelativeDocumentMoniker": "Support.xaml",
+              "ToolTip": "E:\\2\\Porlam\\Support.xaml",
+              "RelativeToolTip": "Support.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T07:20:49.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\Server.cs",
+              "RelativeDocumentMoniker": "Server.cs",
+              "ToolTip": "E:\\2\\Porlam\\Server.cs",
+              "RelativeToolTip": "Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:19:23.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\2\\Porlam\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\2\\Porlam\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T07:00:58.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Authentication.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\Authentication.xaml.cs",
+              "RelativeDocumentMoniker": "Authentication.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\Authentication.xaml.cs",
+              "RelativeToolTip": "Authentication.xaml.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAawKcAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:40:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Support.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\Support.xaml.cs",
+              "RelativeDocumentMoniker": "Support.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\Support.xaml.cs",
+              "RelativeToolTip": "Support.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:38:59.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Teams.xaml.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\Teams.xaml.cs",
+              "RelativeDocumentMoniker": "Teams.xaml.cs",
+              "ToolTip": "E:\\2\\Porlam\\Teams.xaml.cs",
+              "RelativeToolTip": "Teams.xaml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:38:49.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WordSert.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\WordSert.cs",
+              "RelativeDocumentMoniker": "WordSert.cs",
+              "ToolTip": "E:\\2\\Porlam\\WordSert.cs",
+              "RelativeToolTip": "WordSert.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:38:31.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TelegramBots.cs",
+              "DocumentMoniker": "E:\\2\\Porlam\\TelegramBots.cs",
+              "RelativeDocumentMoniker": "TelegramBots.cs",
+              "ToolTip": "E:\\2\\Porlam\\TelegramBots.cs",
+              "RelativeToolTip": "TelegramBots.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:37:43.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

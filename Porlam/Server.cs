@@ -8,18 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Porlam.Properties;
+using Microsoft.Extensions.Logging;
+using NLog;
 
 namespace Porlam
 {
     public class Server
     {
         //public static
+        private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
         public static List<String> tableName;  // таблицы
 
         public static DataSet dataSet = new DataSet();
 
         //private static
-        private static string connText = "Data Source=HOME-PC\\SERV;Initial Catalog=MollParlam;Integrated Security=false; user id=sa; password=123"; // строка подключения
+        private static string connText = "workstation id=molparlam.mssql.somee.com;packet size=4096;user id=Chaek2_SQLLogin_1;pwd=3n1y15qn22;data source=molparlam.mssql.somee.com;persist security info=False;initial catalog=molparlam;TrustServerCertificate=True"; // строка подключения
         private static string return_TableName = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES"; // вывод таблиц
         private static string return_ColumnName = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '"; // вывод столбцов таблицы
         private static string return_ColumnID = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE ORDINAL_POSITION = 1 and TABLE_NAME = '"; // вывод 1-ого столбца таблицы
@@ -33,6 +36,7 @@ namespace Porlam
         {
             if (dataSet.Tables.Count == 0)
             {
+                _logger.Fatal("Первый старт приложения");
                 tableName = TableNames();
                 SQL_State();
                 for (int i = 0; i < tableName.Count(); i++)
@@ -60,6 +64,7 @@ namespace Porlam
             bool isValid = tableName.Any(str => str == table);
             if (isValid)
             {
+                _logger.Fatal($"SELECT {table}");
                 try
                 {
                     SQL_State();
@@ -84,6 +89,7 @@ namespace Porlam
             bool isValid = tableName.Any(str => str == table);
             if (isValid && valueList.Count > 0)
             {
+                _logger.Fatal($"INSERT {table}");
                 try
                 {
                     SQL_State();
@@ -167,6 +173,7 @@ namespace Porlam
             bool isValid = tableName.Any(str => str == table);
             if (isValid && id != "" && valueList.Count > 0)
             {
+                _logger.Fatal($"UPDATE {table}");
                 try
                 {
                     SQL_State();
@@ -186,9 +193,10 @@ namespace Porlam
                         if (i < datatable.Rows.Count - 1)
                             query += ",";
                     }
-                    query += $" WHERE {datatable.Rows[0][0]} = {id}";
+                    query += $" WHERE {datatable.Rows[0][0]} = @id";
                     adapter.UpdateCommand = new SqlCommand(query, sqlConn);
                     adapter.UpdateCommand.Parameters.Clear();
+                    adapter.UpdateCommand.Parameters.AddWithValue($"@id", id);
                     for (int i = 1; i <= datatable.Rows.Count - 1; i++)
                     {
                         adapter.UpdateCommand.Parameters.AddWithValue($"@{datatable.Rows[i][0]}", valueList[i - 1]);
@@ -215,6 +223,7 @@ namespace Porlam
             bool isValid = tableName.Any(str => str == table);
             if (isValid && id != "")
             {
+                _logger.Fatal($"DELETE {table}");
                 try
                 {
                     SQL_State();

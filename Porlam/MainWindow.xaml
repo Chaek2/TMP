@@ -9,6 +9,7 @@
         Icon="icon.ico"
         WindowStartupLocation="CenterScreen"
         Title="Главная" Height="450" Width="800">
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="72*"/>
@@ -49,12 +50,20 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="3*"/>
                 <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
-            <Button x:Name="btn_auth" Content="Авторизация / Регистрация" Grid.Row="1" Visibility="Visible" Click="btn_auth_Click"/>
-            <Button x:Name="btn_admin" Content="Администрация" Grid.Row="1" Visibility="Hidden" Click="btn_admin_Click"/>
+            <Button x:Name="btn_auth" Content="Авторизация / Регистрация" 
+                    Grid.Row="1" Visibility="Visible" Click="btn_auth_Click"/>
+            <Button x:Name="btn_admin" Content="Администрация" Grid.Row="1" 
+                    Visibility="Hidden" Click="btn_admin_Click"/>
             <Button Content="Список Активистов" Grid.Row="3" Click="Button_Click"/>
             <Button Content="Тех. поддержка"  Grid.Row="5" Click="Button_Click_1"/>
-            <Button x:Name="btn_exit" Content="Выйти из аккаунта"  Grid.Row="7"  Visibility="Hidden" Click="btn_exit_Click"/>
+            <Button x:Name="btn_acc" Content="Аккаунт"  Grid.Row="7"  
+                    Visibility="Hidden" Click="btn_acc_Click"/>
+            <Button x:Name="btn_exit" Content="Выйти из аккаунта"  Grid.Row="9"  
+                    Visibility="Hidden" Click="btn_exit_Click"/>
+            
         </Grid>
     </Grid>
 </Window>

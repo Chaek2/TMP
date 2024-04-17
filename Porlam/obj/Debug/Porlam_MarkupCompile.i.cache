@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Anton\source\repos\Porlam\obj\Debug\
+E:\2\Porlam\obj\Debug\
 Porlam
 none
 false
 DEBUG;TRACE
-C:\Users\Anton\source\repos\Porlam\App.xaml
-61168840544
+E:\2\Porlam\App.xaml
+71404781351
 
-13-1633571408
-201410204076
-AdminPanel.xaml;Authentication.xaml;MainWindow.xaml;ProjectInfo.xaml;Support.xaml;Teams.xaml;
+151189385833
+173980625647
+Account.xaml;AdminPanel.xaml;Authentication.xaml;MainWindow.xaml;ProjectInfo.xaml;Support.xaml;Teams.xaml;
 
-True
+False
 

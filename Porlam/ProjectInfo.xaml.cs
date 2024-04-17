@@ -1,23 +1,12 @@
-﻿using Microsoft.Win32;
-using Newtonsoft.Json.Linq;
-using Porlam.Properties;
+﻿using Porlam.Properties;
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Porlam
 {
@@ -26,6 +15,9 @@ namespace Porlam
     /// </summary>
     public partial class ProjectInfo : Window
     {
+        private byte[] zadanie= null;
+        private DateTime datebefore;
+        private DateTime datefrom;
         public ProjectInfo()
         {
             InitializeComponent();
@@ -40,27 +32,18 @@ namespace Porlam
                       where row.Field<string>("Title") == Settings.Default.Post_id
                       select row;
             DataRow rowActive = res.First();
-            _name.Text = rowActive[0].ToString();
+            _post_title.Text = rowActive[0].ToString();
             var bitmapImage = new BitmapImage();
             bitmapImage.BeginInit();
             bitmapImage.UriSource = new Uri(rowActive[1].ToString());
             bitmapImage.EndInit();
-            _img.Source = bitmapImage;
-            _num.Text += rowActive[3].ToString();
-            MessageBoxResult dialogResult = MessageBox.Show("Перейти к файлу?", "Сохранение файла задания", MessageBoxButton.YesNo, MessageBoxImage.Question);
-            if (dialogResult  == MessageBoxResult.Yes)
-            {
-                File.WriteAllBytes($"D:\\{rowActive[0].ToString()}.xlsx", (byte[])rowActive[2]);
-                Process.Start("explorer.exe", @"D:\...");
-            }
-            if (Settings.Default.Client_ID!=-1)
-            {
-                ArrayList arrayList = new ArrayList();
-                arrayList.Add(Settings.Default.Client_ID);
-                arrayList.Add(rowActive[0].ToString());
-                arrayList.Add(DateTime.Now);
-                Server.Insert("Jurnal_Active", arrayList);
-            }
+            _post_img.Source = bitmapImage;
+            _post_point.Text += rowActive[3].ToString();
+            datebefore = (DateTime)rowActive[4];
+            datefrom = (DateTime)rowActive[5];
+            _post_datebefore.Text += datebefore.ToShortDateString();
+            _post_datefrom.Text += datefrom.ToShortDateString();
+            zadanie = (byte[])rowActive[2];
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -68,6 +51,24 @@ namespace Porlam
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult dialogResult = MessageBox.Show("Перейти к файлу?", "Сохранение файла задания", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (dialogResult == MessageBoxResult.Yes)
+            {
+                File.WriteAllBytes($"E:\\zadanie.xlsx", zadanie);
+                Process.Start("explorer.exe", @"E:\...");
+            }
+            if (Settings.Default.Client_ID != -1 && DateTime.Now < datebefore)
+            {
+                ArrayList arrayList = new ArrayList();
+                arrayList.Add(Settings.Default.Client_ID);
+                arrayList.Add(_post_title.Text);
+                arrayList.Add(DateTime.Now);
+                Server.Insert("Jurnal_Active", arrayList);
+            }
         }
     }
 }

@@ -10,29 +10,41 @@
         Title="" Height="250" Width="600">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="7*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="5*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="10*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Button Content="Назад" Click="Button_Click" Grid.Column="5" Grid.Row="5"/>
-        <TextBlock x:Name="_name" Text="Title" FontSize="22" FontFamily="Times New Romans" Padding="8"
-                   Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="1"/>
-        <Image x:Name="_img" Grid.Row="3" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3" Source="icon.ico"/>
-        <TextBlock x:Name="_num" Text="Кол-во баллов: " Grid.Column="5" Grid.Row="3" TextWrapping="Wrap" FontSize="20" 
-                   VerticalAlignment="Center"/>
+        <Image Source="https://dk.mos.ru/upload/resize_cache/iblock/c8c/1200_900_1/ccqhrge0as1e3gvo9pue6gbhi35lyuwf.jpg" 
+               x:Name="_post_img" Grid.Row="1" Grid.Column="1" Grid.RowSpan="4" Grid.ColumnSpan="3"/>
+        <TextBlock x:Name="_post_title" FontSize="22" Text="Title" Grid.Column="4" Grid.Row="1" 
+                   Grid.ColumnSpan="6" Grid.RowSpan="2" TextWrapping="WrapWithOverflow"/>
+        <TextBlock x:Name="_post_datefrom"   Text="Дата создания: " FontSize="18" 
+                   Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="4"/>
+        <TextBlock x:Name="_post_datebefore" Text="Действителен до: " FontSize="18" 
+                   Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="4"/>
+        <TextBlock x:Name="_post_point" Text="Кол-во боллов: " FontSize="18" 
+                   Grid.Column="5" Grid.Row="5" Grid.ColumnSpan="4"/>
+        <Button Content="Скачать задание" Grid.Column="6" Grid.Row="6" 
+                Grid.ColumnSpan="2" Click="Button_Click_1"/>
+        <Button Content="Назад" Grid.Column="9" Grid.Row="6" Click="Button_Click"/>
 
     </Grid>
 </Window>

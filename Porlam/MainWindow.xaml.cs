@@ -1,20 +1,12 @@
-﻿using Porlam.Properties;
+﻿using Microsoft.Extensions.Logging;
+using NLog;
+using Porlam.Properties;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Porlam
 {
@@ -23,6 +15,7 @@ namespace Porlam
     /// </summary>
     public partial class MainWindow : Window
     {
+        private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
         public MainWindow()
         {
             InitializeComponent();
@@ -46,6 +39,7 @@ namespace Porlam
                 }
                 btn_exit.Visibility = Visibility.Visible;
                 btn_auth.Visibility = Visibility.Hidden;
+                btn_acc.Visibility = Visibility.Visible; 
             }
             else
             {
@@ -77,6 +71,8 @@ namespace Porlam
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            _logger.Warn("Предупреждение");
+            _logger.Error("Ошибка");
             Teams teams = new Teams();
             teams.Show();
             this.Close();
@@ -84,6 +80,9 @@ namespace Porlam
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            _logger.Info("Информационное сообщение");
+            _logger.Warn("Предупреждение");
+            _logger.Error("Ошибка");
             Support support = new Support();
             support.Show();
             this.Close();
@@ -105,6 +104,13 @@ namespace Porlam
         {
             AdminPanel adminPanel = new AdminPanel();
             adminPanel.Show();
+            this.Close();
+        }
+
+        private void btn_acc_Click(object sender, RoutedEventArgs e)
+        {
+            Account account = new Account();
+            account.Show();
             this.Close();
         }
     }
